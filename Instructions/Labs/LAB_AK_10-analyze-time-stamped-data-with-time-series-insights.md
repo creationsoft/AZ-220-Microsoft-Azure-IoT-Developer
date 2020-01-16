@@ -233,6 +233,8 @@ In this exercise, you will be introduced to working with time series data using 
 
 1. This will open the **Time Series Insights Explorer** in a new browser tab.
 
+1. If you see a toggle option in the header bar called 'Preview' - set it to 'On'
+
 1. On the **Analyze** view within TSI Explorer, locate the **MEASURE** dropdown within the box for creating new queries, and select the `temperature` value.
 
 1. Within the **SPLIT BY** dropdown, select the `iothub-connection-device-id` value. This will split the graph to show the telemetry from each of the IoT Devices separately on the graph.
