@@ -614,7 +614,7 @@ To prepare the Stream Analytics job to be deployed to an IoT Edge Device, it nee
     iotedge logs tempsensor
     ```
 
-1. Notice that while watching the temperature telemetry being sent by **tempsensor**, you will see the **reset** command sent by the Stream Analytics job when the `machine.temperature` reaches an average above `500` as configured in the Stream Analytics job query.
+1. Notice that while watching the temperature telemetry being sent by **tempsensor**, you will see the **reset** command sent by the Stream Analytics job when the `machine.temperature` reaches an average above `25` as configured in the Stream Analytics job query.
 
     Output of this event will look similar to the following:
 
