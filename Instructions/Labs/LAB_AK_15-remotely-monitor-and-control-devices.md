@@ -446,7 +446,7 @@ This section adds code to receive telemetry from the IoT Hub Event Hub endpoint.
             // The Event Hub-compatible name.
             private readonly static string s_eventHubsCompatiblePath = "<your event hub path>";
             private readonly static string s_iotHubSasKey = "<your event hub Sas key>";
-            private readonly static string s_iotHubSasKeyName = "service";
+            private readonly static string s_iotHubSasKeyName = "iothubowner";
             private static EventHubClient s_eventHubClient;
 
             // Connection string for your IoT Hub.
